@@ -12,8 +12,11 @@ int main(int argc, char** argv)
     fp = fopen("data//student_info.txt", "r");
 
     // read student info until it finds the student_id
+    
     // hint: you can use fscanf(fp, "%s %s %s\n", buffer1, buffer2, buffer3)
+    fscanf(fp, "%s %s %s\n", student_id, student_name, student_section);
     // hint: use atoi(str) function to convert string to integer
+
 
     fclose(fp);
 
